@@ -1,0 +1,11 @@
+from django.shortcuts import render
+from .models import Destination
+
+# Create your views here.
+def index(request):
+
+    dests = Destination.objects.all()
+    return render(request, "home.html", {"dests": dests})
+
+def gallery(request):
+    return render(request, "gallery.html")
