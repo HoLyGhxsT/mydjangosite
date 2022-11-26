@@ -15,3 +15,4 @@ local.py
 media/upload/
 db.sqlite3
 media/
+.env
