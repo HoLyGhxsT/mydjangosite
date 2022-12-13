@@ -16,3 +16,4 @@ media/upload/
 db.sqlite3
 media/
 .env
+static/
